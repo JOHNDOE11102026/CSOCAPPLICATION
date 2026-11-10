@@ -1,0 +1,38 @@
+APP_NAME=demo-csoc-app
+APP_ENV=development
+DEBUG=true
+PORT=3000
+LOG_LEVEL=info
+
+# Database (fake credentials)
+DATABASE_HOST=localhost
+DATABASE_PORT=5432
+DATABASE_NAME=demo_db
+DATABASE_USER=bill.kohus@westernsouthernlife.com
+DATABASE_PASSWORD=aGPLdJq6Nj@aDcsy_z#3Fd_sG--PXOxK
+
+# Authentication (placeholders)
+JWT_SECRET=xa0eGcYC9jYAmBynbDVKxDd9ukCHfLm7YOpIgKjc5RVzrW_PPV4WJBzdenp99YP-
+API_KEY=csoc_test_29c51a9e86e0a392e97c4068f625e4a0d1afc35a9238cea9
+
+# External services (example endpoints)
+REDIS_URL=redis://localhost:6379
+SMTP_HOST=mail.csoc.com
+SMTP_PORT=587
+SMTP_USER=bill.kohus@westernsouthernlife.com
+SMTP_PASSWORD=^-9RmxU6DXz*UWwobwreK4^T8I
+
+# Microsoft Sentinel / Azure (fictional identifiers)
+AZURE_TENANT_ID=d5978009-9d0c-4f57-b1a2-29ca24eed976
+AZURE_CLIENT_ID=4291463c-6507-4088-98e0-aade746b1351
+AZURE_CLIENT_SECRET=_D1Dd3KUr2zHPa8xLLH2K0DptGlbO7-mSSkWX2vO6xbWzPun
+SENTINEL_WORKSPACE_ID=570ca977-094b-48d8-bfe3-577357c2b28f
+
+# Additional mock integrations (fictional, not provisioned)
+GITHUB_TOKEN=ghp_aj82_3qYRS6-H0dycJmrMSzHg0YqQMmxsv7o
+STRIPE_SECRET_KEY=sk_test_20aa4ecb460be70b9cf4c61c9d637fafb330f255776ad76e
+SLACK_BOT_TOKEN=xoxb-241230866341-455124920247-PtyJCtUle3OEq4lJE2yDri2O
+WEBHOOK_SIGNING_SECRET=whsec_bee714950d0ac2a31b844e389d264c9cd8d9903943e864ff
+SERVICE_ACCOUNT_PASSWORD=gnPGaQO@lCgY4iCfVLz8fpTn1EBc_g
+REDIS_PASSWORD=d%q#Hz52-973M8bQ2NWYYbop5!Ed
+INTERNAL_API_TOKEN=TLoAsjAqL-0o-BEIcEe66Vn7JnMtjdZdEQLGMlUia6ZiI2_f
